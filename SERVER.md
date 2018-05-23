@@ -1,15 +1,16 @@
-sudo apt-get update
-sudo apt-get install apache2
+* sudo apt-get update
 
-sudo apt-get install mysql-server php5-mysql
+* sudo apt-get install apache2
 
-sudo mysql_install_db
+* sudo apt-get install mysql-server php5-mysql
 
-sudo mysql_secure_installation
+* sudo mysql_install_db
 
-sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+* sudo mysql_secure_installation
 
-sudo nano /etc/apache2/mods-enabled/dir.conf
+* sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+
+* sudo nano /etc/apache2/mods-enabled/dir.conf
 
 	<IfModule mod_dir.c>
 		DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
