@@ -12,7 +12,7 @@
 
 * sudo nano /etc/apache2/mods-enabled/dir.conf
 
-
+------------------------------------------------------------
 
 
 	<IfModule mod_dir.c>
@@ -20,7 +20,7 @@
 	</IfModule>
 
 	
-	
+------------------------------------------------------------
 	
 sudo service apache2 restart
 
