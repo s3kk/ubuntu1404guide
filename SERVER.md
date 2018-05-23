@@ -1,3 +1,5 @@
+###### Note: to save nano file, press CTRL + X, then Y then hit ENTER
+
 ------------------------------------------------------------
 
 * sudo apt-get update
