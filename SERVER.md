@@ -22,32 +22,50 @@
 	
 ------------------------------------------------------------
 	
-sudo service apache2 restart
+* sudo service apache2 restart
 
-apt-cache search php5-
+* apt-cache search php5-
 
-sudo apt-get install php5-cgi
+* sudo apt-get install php5-cgi
 
-sudo apt-get install php5-cli
+* sudo apt-get install php5-cli
 
-sudo nano /var/www/html/info.php
+* sudo nano /var/www/html/info.php
+
+------------------------------------------------------------
+
 
 	<?php
 	phpinfo();
 	?>
+	
+	
+------------------------------------------------------------
 
-sudo apt-get update
-sudo apt-get install phpmyadmin
+* sudo apt-get update
 
-sudo php5enmod mcrypt
+* sudo apt-get install phpmyadmin
 
-sudo service apache2 restart
+* sudo php5enmod mcrypt
 
-sudo iptables -A INPUT -p tcp --dport 7171 -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 7172 -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 8090 -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 3306 -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 4499 -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 8245 -j ACCEPT
+* sudo service apache2 restart
+
+------------------------------------------------------------
+
+* sudo iptables -A INPUT -p tcp --dport 7171 -j ACCEPT
+
+* sudo iptables -A INPUT -p tcp --dport 7172 -j ACCEPT
+
+* sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+
+* sudo iptables -A INPUT -p tcp --dport 8090 -j ACCEPT
+
+* sudo iptables -A INPUT -p tcp --dport 3306 -j ACCEPT
+
+* sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+
+* sudo iptables -A INPUT -p tcp --dport 4499 -j ACCEPT
+
+* sudo iptables -A INPUT -p tcp --dport 8245 -j ACCEPT
+
+------------------------------------------------------------
