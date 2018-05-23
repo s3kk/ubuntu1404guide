@@ -1,40 +1,44 @@
-sudo apt-get update
+* sudo apt-get update
 sudo apt-get install apache2
 
-sudo apt-get install mysql-server php5-mysql
+* sudo apt-get install mysql-server php5-mysql
 
-sudo mysql_install_db
+* sudo mysql_install_db
 
-sudo mysql_secure_installation
+* sudo mysql_secure_installation
 
-sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+* sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
 
-sudo nano /etc/apache2/mods-enabled/dir.conf
+* sudo nano /etc/apache2/mods-enabled/dir.conf
 
 	<IfModule mod_dir.c>
 		DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 	</IfModule>
+	
+######		To save the file, use CTRL + X, then hit Y and ENTER
 
-sudo service apache2 restart
+* sudo service apache2 restart
 
-apt-cache search php5-
+* apt-cache search php5-
 
-sudo apt-get install php5-cgi
+* sudo apt-get install php5-cgi
 
-sudo apt-get install php5-cli
+* sudo apt-get install php5-cli
 
-sudo nano /var/www/html/info.php
+* sudo nano /var/www/html/info.php
 
 	<?php
 	phpinfo();
 	?>
+	
+######		To save the file, use CTRL + X, then hit Y and ENTER
 
-sudo apt-get update
+* sudo apt-get update
 sudo apt-get install phpmyadmin
 
-sudo php5enmod mcrypt
+* sudo php5enmod mcrypt
 
-sudo service apache2 restart
+* sudo service apache2 restart
 
 sudo iptables -A INPUT -p tcp --dport 7171 -j ACCEPT
 sudo iptables -A INPUT -p tcp --dport 7172 -j ACCEPT
