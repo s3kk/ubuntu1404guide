@@ -1,6 +1,6 @@
 * sudo apt-get update
 
-sudo apt-get install apache2
+* sudo apt-get install apache2
 
 * sudo apt-get install mysql-server php5-mysql
 
@@ -15,8 +15,6 @@ sudo apt-get install apache2
 	<IfModule mod_dir.c>
 		DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 	</IfModule>
-	
-######		To save the file, use CTRL + X, then hit Y and ENTER
 
 * sudo service apache2 restart
 
@@ -31,12 +29,10 @@ sudo apt-get install apache2
 	<?php
 	phpinfo();
 	?>
-	
-######		To save the file, use CTRL + X, then hit Y and ENTER
 
 * sudo apt-get update
 
-sudo apt-get install phpmyadmin
+* sudo apt-get install phpmyadmin
 
 * sudo php5enmod mcrypt
 
