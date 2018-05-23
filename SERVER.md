@@ -1,4 +1,5 @@
 * sudo apt-get update
+
 sudo apt-get install apache2
 
 * sudo apt-get install mysql-server php5-mysql
@@ -34,6 +35,7 @@ sudo apt-get install apache2
 ######		To save the file, use CTRL + X, then hit Y and ENTER
 
 * sudo apt-get update
+
 sudo apt-get install phpmyadmin
 
 * sudo php5enmod mcrypt
